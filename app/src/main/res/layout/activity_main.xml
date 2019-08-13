@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_error_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Error Toast"
+        app:layout_constraintEnd_toEndOf="@+id/button_s_toast"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/button_s_toast"
+        app:layout_constraintTop_toBottomOf="@+id/button_s_toast" />
+
+    <Button
+        android:id="@+id/button_w_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Warning Toast"
+        app:layout_constraintEnd_toEndOf="@+id/button_i_toast"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/button_i_toast"
+        app:layout_constraintTop_toBottomOf="@+id/button_i_toast" />
+
+    <Button
+        android:id="@+id/button_s_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal Toast"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_i_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Info Toast"
+        app:layout_constraintEnd_toEndOf="@+id/button_error_toast"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/button_error_toast"
+        app:layout_constraintTop_toBottomOf="@+id/button_error_toast" />
+
+    <Button
+        android:id="@+id/button_n_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Success Toast"
+        app:layout_constraintEnd_toEndOf="@+id/button_w_toast"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/button_w_toast"
+        app:layout_constraintTop_toBottomOf="@+id/button_w_toast" />
+
+
+</android.support.constraint.ConstraintLayout>
